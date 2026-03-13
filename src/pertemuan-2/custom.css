@@ -1,0 +1,71 @@
+/* --- Styling untuk keseluruhan halaman --- */
+/* Perubahan: Menggunakan font yang lebih modern dan layout tengah otomatis */
+body {
+    /* Gunakan Arial jika Anda tidak ingin memuat Google Font, atau tambahkan link 'Inter' di HTML Anda agar lebih pro */
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif; 
+    background-color: #f7fafc; /* Latar belakang abu-abu yang lebih lembut dan bersih */
+    color: #1a202c; /* Teks utama yang lebih gelap dan kontras */
+    margin: 0;
+    padding: 20px;
+    display: flex; /* Untuk memposisikan card di tengah layar secara vertikal */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* --- Container utama (.card) --- */
+/* Perubahan: Spasi yang lebih baik, sudut yang lebih melengkung, bayangan yang sangat lembut */
+.card {
+    max-width: 500px; /* Diperkecil sedikit agar lebih fokus */
+    width: 100%;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 40px; /* Padding ditingkatkan agar konten punya ruang untuk 'bernapas' */
+    border-radius: 20px; /* Sudut lebih melengkung agar terlihat modern dan ramah */
+    /* Bayangan berlapis yang sangat lembut dan canggih (soft shadows) */
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 
+                0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* --- Header utama (h1) --- */
+/* Perubahan: Menggunakan warna biru modern, font lebih tebal, dan spasi yang lebih proporsional */
+h1 {
+    color: #1d4ed8; /* Biru "Royal" yang lebih modern */
+    text-align: center;
+    font-weight: 800; /* Teks lebih tebal untuk penekanan */
+    font-size: 28px; /* Ukuran yang ideal */
+    margin-top: 0; /* Hapus margin atas default */
+    margin-bottom: 25px; /* Spasi yang lebih baik sebelum konten */
+    letter-spacing: -0.5px; /* Rapatkan sedikit teks agar terlihat tajam */
+}
+
+/* --- Paragraf (p) --- */
+/* Perubahan: Line-height yang lebih besar untuk keterbacaan, warna teks yang nyaman */
+p {
+    font-size: 16px;
+    line-height: 1.8; /* Meningkatkan jarak antar baris teks */
+    color: #4a5568; /* Warna teks yang lebih lembut di mata */
+    margin-bottom: 20px;
+}
+
+/* --- Garis pemisah (hr) --- */
+/* Perubahan: Warna yang lebih tipis dan halus agar tidak terlalu kaku */
+hr {
+    border: none;
+    height: 1px; /* Gunakan 1px agar lebih tipis dan bersih */
+    background: #e2e8f0; /* Warna abu-abu yang sangat muda */
+    margin: 25px 0; /* Spasi yang seimbang atas-bawah */
+}
+
+/* --- Greeting (small) --- */
+/* Perubahan: Teks lebih kecil, tebal, dan warna yang diredam */
+small {
+    display: block;
+    font-style: normal; /* Matikan miring agar lebih bersih */
+    font-size: 13px; /* Ukuran teks lebih kecil */
+    font-weight: 500; /* Sedikit lebih tebal */
+    text-align: center;
+    color: #a0aec0; /* Warna abu-abu pudar */
+    margin-top: 10px;
+    letter-spacing: 0.5px; /* Sedikit spasi antar huruf agar keren */
+}
