@@ -11,7 +11,7 @@ export default function HelloWorld(){
             <GreetingBinjai/>
             <QuoteText/>
             <UserCard 
-	            nama="RRQ" 
+	            nama="ONIC Farel" 
 	            nim="169412"
 	            tanggal={new Date().toLocaleDateString()}
 	        />
